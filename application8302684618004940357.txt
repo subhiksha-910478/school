@@ -1,0 +1,6 @@
+#Success
+#Tue Mar 15 16:50:34 IST 2022
+target.service.name=student-service
+server.port=8088
+management.security.enabled=false
+spring.application.name=school-service
