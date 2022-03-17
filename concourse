@@ -1,0 +1,13 @@
+#!/bin/bash
+
+set -e -u
+
+export GOPATH=$PWD/gopath
+export PATH=$PWD/gopath/bin:$PATH
+
+cd school
+
+echo "navigating to school..."
+
+echo "running tests..."
+./school/src/test/java/com/example/school/SchoolApplicationTests.java  -p "$@"
